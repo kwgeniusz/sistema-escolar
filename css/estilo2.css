@@ -1,0 +1,299 @@
+
+
+
+/* ARCHIVO ORIGINAL*/
+/* ------------------------------
+  GENERAL             
+ -------------------------------*/
+
+html { 
+  background: url(../inc/img/16.png) ;
+  font-family: arial;
+  margin: 0 auto;
+}
+
+.rojo{
+ color:red;
+}
+.verde{
+ color:green;
+}
+
+ img.logoCentro{
+  
+  width:40%;
+  height:35%;
+  border:1px solid black;
+  border-radius: 5%;
+  padding:5px;
+  box-shadow: black 10px 0px 10px 0px ;
+}
+
+
+/* ------------------------------
+ CABEZA       
+ -------------------------------*/
+
+#cabeza {
+  width:100%;
+  height:25%;
+  margin: 0 auto;
+  color: #000000; 
+  background: -moz-linear-gradient(left,black 2%,#CD0000 20%);
+	border: 2px solid black;
+	text-shadow: -2px -2px 1px black;
+  border-radius:  50px 0px 0px 0px;
+  
+ }
+ 
+#cabeza h2,
+#cabeza h3
+{
+   text-align:center;
+   color: white; 
+   width:100%;
+   height:25%;   
+}
+
+
+ img.logoCabeza{
+  
+  width:25%;
+  height:100%;
+  border:1px solid black;
+  border-radius: 20%;
+  padding:5px;
+  box-shadow: black 10px 0px 10px 0px ;
+}
+
+
+/* ------------------------------
+  PIE DE PAGINA             
+ -------------------------------*/
+
+#pie {
+  width: 100%;
+  background: #fff; 
+  border: solid 1px black;
+  margin-top:5%;
+}
+
+#pie td{
+  font-weight:bold;
+  color: black;  
+  font-size: 13;
+}
+
+ img.logoPie{
+  width:100%;
+  height:8%;
+
+}
+
+/* -----------------------------
+  TABLAS DE DATOS             
+ -------------------------------*/
+
+
+#datatable th  {
+    font-size: 15;
+    background-color: #00688B; 
+
+    color: white;  
+    margin: 0;
+    text-shadow: -2px -2px 1px #000;               
+}
+#datatable tr {
+   color: black; 
+   background-color: #fff; 
+   font-size: 14;
+   margin: 0;
+}
+#datatable tr:hover {
+   background: #E3CF57;
+   color: black;
+}
+
+#datatable td {
+
+  
+}
+
+
+#datatableNotas th  {
+    font-size: 15;
+    background-color: #00688B; 
+    color: white;  
+    margin: 0;
+    text-shadow: -2px -2px 1px #000;               
+}
+
+#datatableNotas tr {
+   color: black; 
+   background-color: #fff; 
+   font-size: 14;
+   margin: 0;
+}
+
+
+/* ------------------------------
+    MENU            
+ -------------------------------*/
+.menu{
+ width:100%;
+ background:#00688B;
+ list-style:none;
+ margin:0;
+ padding:0;
+ border-radius: 0px 0px 50px 50px;
+ border: 1px solid #7EC0EE;
+ border-top:0px;
+}
+
+.menu li {
+   display:inline-block;
+   				
+}
+
+.menu li a{
+  display:block;
+  font-style:italic;
+  font-weight:bold;
+  font-size: 16.7px;
+
+  padding: 5px 10px;
+  font: Arial;
+
+  text-decoration: none;
+  background:#00688B;
+  border-color: #ccc;
+  color: white;
+  transition:all 0.3s linear;
+  text-shadow: -1.4px -1.4px 1px #000;
+}
+
+.menu li a:hover{
+    text-shadow: -1px -1px 10px #FFFF00;
+
+}
+   .menu li ul {
+         padding:0;
+				 display:none;
+				 position:absolute;
+				 min-width:140px;
+				 border-radius: 0px 0px 10px 10px;	
+				 box-shadow: 0px 0px 10px #000 ;
+			 }
+			
+   .menu li:hover > ul {
+	      display:block; 
+ 
+			 }
+			
+	 .menu li ul li {
+	 	     display:block;
+				 position:relative;
+				 top:1px; 
+			 }
+	 .menu li ul li a {
+  border-left: 2px solid #7EC0EE;
+  border-right: 2px solid #7EC0EE;		
+			 } 
+			 
+			.menu li a.border {
+  border-radius: 0px 0px 20px 20px;	
+  border-bottom: 2px solid #7EC0EE;	
+  	
+} 
+			 
+/* ------------------------------
+     AULAS            
+ -------------------------------*/
+
+ 
+#aulas label.tituloAula  {
+    font-size: 17;
+    background:#00688B; 
+    padding:5px 5%;
+    color: white;  
+     box-shadow: 0px 0px 30px -7px yellow;                    
+}
+
+#aulas a.DISPONIBLE {
+   text-decoration:none;
+   border:1px solid black;
+   padding:10px 30px;
+   color: white; 
+   background-color: #00C957; 
+   font-size: 16;
+   transition:all 0.3s linear;
+   border-radius: 4px;
+}
+#aulas a.DISPONIBLE:hover {
+   box-shadow: 0px 0px 30px WHITE INSET ;
+   color: black;
+     
+}
+
+#aulas a.LLENA {
+
+   text-decoration:none;
+   border:1px solid black;
+   padding:10px 30px;
+   color: white; 
+   background-color: #CD3333; 
+   font-size: 16;
+   transition:all 0.3s linear;
+   border-radius: 4px;
+}
+#aulas a.LLENA:hover  {
+   box-shadow: 0px 0px 30px white inset;
+   color: black;
+}
+
+/* ------------------------------
+  EXTRAS             
+ -------------------------------*/
+
+ .boton {
+	font-family: Verdana, Arial,Helvetica, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	padding: 5px 15px;
+	 background: -moz-linear-gradient(
+		top,
+		#0489B1 0%,
+		#00688B 25%,
+		#0489B1);
+	background: -webkit-linear-gradient(
+		top,
+		#0489B1 0%,
+		#00688B 25%,
+		#0489B1);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #0404B4;
+	text-shadow: -2px -2px 1px #000;
+	-moz-box-shadow:
+		7px 7px 7px rgba(000,000,000,0.5),
+		inset 3px -3px 3px rgba(255,255,255,0.2);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.2);
+		cursor:pointer;
+    transition: 0.3s linear;
+}
+
+.boton:hover{
+	 background: -moz-linear-gradient(top,#0489B2,#00688B 25%,#0489B1);
+	 color:yellow;
+	 border:1px solid yellow;
+
+}
+
+.boton:active{
+	 background: -moz-linear-gradient(top,#0489B2,#00688B 25%,#0489B1);
+	 color:yellow;
+	 	 box-shadow: inset -3px -3px 10px yellow;
+}
